@@ -1,5 +1,6 @@
 ---
 layout: page
+title : none
 ---
 
 ## About me
