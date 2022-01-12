@@ -1,0 +1,30 @@
+title: "Antonin Vidon"
+author: "Antonin Vidon"
+description: " "
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: false          # adds a gray frame to the site
+minimal: true              # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.md"}
+  - {url: "/#about", title: "About", icon: "comment-dots"}
+  - {url: "/#portfolio", title: "Projects", icon: "code"}
+  - {url: "resources/resume.pdf", title: "CV", icon: "file-pdf"}
+
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:antonin.vidon@columbia.edu"}
+  - {title: Github, icon: github, url: "https://github.com/anvdn"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/antonin-vidon/"}
+
+plugins:
+ - jekyll-feed
