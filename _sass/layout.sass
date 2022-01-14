@@ -1,6 +1,8 @@
 body
   display: flex
   flex-direction: column
+  margin-bottom: 4.25em
+  margin-top: 3em
 
 article
   flex-grow: 1
@@ -22,7 +24,25 @@ article header h1
   margin: 0 0 .1em
 
 nav
-  margin: .5em -0.6em
+  margin: .3em -0.6em
+
+header
+  position: fixed
+  top: 0
+  width: 50%
+  z-index: 9999
+
+footer
+  position: fixed
+  bottom: 0
+  width: 50%
+  margin-bottom: 0
+  background-color: $light
+  z-index: 9999
+
+@media (prefers-color-scheme: dark)
+  footer
+    background-color: $dark
 
 nav a
-  margin: .5em 0.6em
+  margin: .3em 0.6em
