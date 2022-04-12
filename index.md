@@ -13,6 +13,32 @@ My current work experience consists of one internship in strategy consulting and
 
 ## Portfolio
 
+<div style="float: right; display: inline-block;">
+<a class = "github" href="https://github.com/anvdn/SurgicalPhaseRecognition/raw/main/report/Assignement2_av3023_ha2605.pdf"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file-pdf"></use></svg> Report</a>&nbsp;&nbsp;&nbsp;<a class = "github" href="https://github.com/anvdn/SurgicalPhaseRecognition"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#github"></use></svg> GitHub</a>
+</div>
+### Surgical phase recognition
+
+<i> Developing phase recognition models based on MobileNetV2 [1] to classify frames from Hernia surgery videos (14 labels).  </i>
+
+- Used MobileNetV2 as backbone to design and implement four different phase recognition architectures :
+  - MobileNet : backbone to extract features + simple linear layer
+  - MobileNetStage : added linear treatment of [frame idx / # frames in video] to model correlation between time and label
+  - MobileNetLSTM : added LSTM to model correlation between labels of consecutive frames (padded when necessary)
+  - MobileNetFC : channelized backbone features from consecutive frames + linear layer (same idea as LSTM)
+- Coded smoothing operation to replace noisy labels in prediction
+- Achieved 80.0% accuracy and 0.55 macro F1-score on test data
+
+<div class = "references">
+[1] Sandler, Mark, et al. “MobileNetV2: Inverted Residuals and Linear Bottlenecks.” ArXiv:1801.04381 [Cs], Mar. 2019. arXiv.org, http://arxiv.org/abs/1801.04381. <br>
+</div>
+
+<br>
+<br>
+
+<img class = "png" src="https://github.com/anvdn/SurgicalPhaseRecognition/raw/main/report/models.png"/> 
+
+<hr>
+
 <a class = "github" href="https://github.com/anvdn/BreastHistopathologyResNet" style="float: right;"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#github"></use></svg> GitHub</a>
 ### Breast Histopathology : custom ResNet 
 
