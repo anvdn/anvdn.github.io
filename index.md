@@ -18,7 +18,7 @@ My current work experience consists of one internship in strategy consulting and
 </div>
 ### Surgical phase recognition
 
-<i> Developing phase recognition models based on MobileNetV2 [1] to classify frames from Hernia surgery videos (14 labels).  </i>
+<i> Developing phase recognition models based on MobileNetV2 [1] to classify frames from Hernia surgery videos (14 labels)  </i>
 
 - Used MobileNetV2 as backbone to design and implement four different phase recognition architectures :
   - MobileNet : backbone to extract features + simple linear layer
