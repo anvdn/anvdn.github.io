@@ -14,7 +14,7 @@ My current work experience consists of one internship in strategy consulting and
 ## Portfolio
 
 <div style="float: right; display: inline-block;">
-<a class = "github" href="https://github.com/anvdn/SurgicalPhaseRecognition/raw/main/report/Assignement2_av3023_ha2605.pdf"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file-pdf"></use></svg> Report</a>&nbsp;&nbsp;&nbsp;<a class = "github" href="https://github.com/anvdn/SurgicalPhaseRecognition"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#github"></use></svg> GitHub</a>
+<a class = "github" href="https://github.com/anvdn/SurgicalPhaseRecognition/raw/main/report/report.pdf"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file-pdf"></use></svg> Report</a>&nbsp;&nbsp;&nbsp;<a class = "github" href="https://github.com/anvdn/SurgicalPhaseRecognition"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#github"></use></svg> GitHub</a>
 </div>
 ### Surgical phase recognition
 
