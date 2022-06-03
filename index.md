@@ -20,13 +20,8 @@ My current work experience consists of one internship in strategy consulting and
 
 <i> Performed image colorization and reconstruction with pix2pix[1]-like cGAN architecture </i>
 
-- Used MobileNetV2 as backbone to design and implement four different phase recognition architectures :
-  - MobileNet : backbone to extract features + simple linear layer
-  - MobileNetStage : added linear treatment of [frame idx / # frames in video] to model correlation between time and label
-  - MobileNetLSTM : added LSTM to model correlation between labels of consecutive frames (padded when necessary)
-  - MobileNetFC : channelized backbone features from consecutive frames + linear layer (same idea as LSTM)
-- Coded smoothing operation to replace noisy labels in prediction
-- Achieved 80.0% accuracy and 0.55 macro F1-score on test data
+- Implemented U-Net generator and discriminator and conducted ablation experiments on reconstruction task for Facades dataset
+- Pretrained downsampling path of generator on ImageNet and finetuned whole generator on Country211 dataset for colorization task
 
 <div class = "references">
 [1] Philip Isola and Jun-Yan Zhu, Tinghui Zhou and Alexei A. Efros, Image-to-Image Translation with Conditional Adversarial Networks, arvix: https://arxiv.org/abs/1611.07004, doi: 10.48550/ARXIV.1611.07004.
@@ -36,7 +31,7 @@ My current work experience consists of one internship in strategy consulting and
 <br>
 <br>
 
-<img class = "png" src="https://github.com/anvdn/pix2pix/raw/main/plots/plot_da_images.png"/> 
+<img class = "png" src="https://github.com/anvdn/pix2pix/raw/main/plots/site_image.png"/> 
 
 <hr>
 
