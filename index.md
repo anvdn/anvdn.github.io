@@ -14,6 +14,33 @@ My current work experience consists of one internship in strategy consulting and
 ## Portfolio
 
 <div style="float: right; display: inline-block;">
+<a class = "github" href="https://github.com/anvdn/pix2pix/raw/main/report/E6691_2022Spring_ABVZ_report_av3023_ha2605_wab2138.pdf"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file-pdf"></use></svg> Report</a>&nbsp;&nbsp;&nbsp;<a class = "github" href="https://github.com/anvdn/pix2pix"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#github"></use></svg> GitHub</a>
+</div>
+### Image-to-image translation with cGAN
+
+<i> Performed image colorization and reconstruction with pix2pix[1]-like cGAN architecture </i>
+
+- Used MobileNetV2 as backbone to design and implement four different phase recognition architectures :
+  - MobileNet : backbone to extract features + simple linear layer
+  - MobileNetStage : added linear treatment of [frame idx / # frames in video] to model correlation between time and label
+  - MobileNetLSTM : added LSTM to model correlation between labels of consecutive frames (padded when necessary)
+  - MobileNetFC : channelized backbone features from consecutive frames + linear layer (same idea as LSTM)
+- Coded smoothing operation to replace noisy labels in prediction
+- Achieved 80.0% accuracy and 0.55 macro F1-score on test data
+
+<div class = "references">
+[1] Philip Isola and Jun-Yan Zhu, Tinghui Zhou and Alexei A. Efros, Image-to-Image Translation with Conditional Adversarial Networks, arvix: https://arxiv.org/abs/1611.07004, doi: 10.48550/ARXIV.1611.07004.
+<br>
+</div>
+
+<br>
+<br>
+
+<img class = "png" src="https://github.com/anvdn/pix2pix/raw/main/plots/plot_da_images.png"/> 
+
+<hr>
+
+<div style="float: right; display: inline-block;">
 <a class = "github" href="https://github.com/anvdn/SurgicalPhaseRecognition/raw/main/report/report.pdf"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file-pdf"></use></svg> Report</a>&nbsp;&nbsp;&nbsp;<a class = "github" href="https://github.com/anvdn/SurgicalPhaseRecognition"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#github"></use></svg> GitHub</a>
 </div>
 ### Surgical phase recognition
