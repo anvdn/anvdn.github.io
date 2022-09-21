@@ -7,7 +7,7 @@ title : ""
 
 <img class="profile-picture" src="resources/photo.jpg">
 
-Hi! I am a first year grad student at [Columbia University](https://www.columbia.edu/) currently enrolled in the [MS in Data Science](https://datascience.columbia.edu/). In the past, I earned a master's degree in Applied Mathematics at [École Polytechnique](https://www.polytechnique.edu/en) in France, where I am originally from.
+Hi! I am a second year grad student at [Columbia University](https://www.columbia.edu/) currently enrolled in the [MS in Data Science](https://datascience.columbia.edu/). In the past, I earned a master's degree in Applied Mathematics at [École Polytechnique](https://www.polytechnique.edu/en) in France, where I am originally from.
 
 My current work experience in Machine Learning consists of one internship in RL research and another one as an ML Engineer in an automation Start-up. During the former, I developed a deep generative model capable of imitating "expert-like" navigation behavior on different types of surfaces. As for the ML Engineer position, I worked on improving the reading order of segments extracted from pages with complex layouts so as to provide better context to downstream tasks. Earlier in my graduate program, I also had the opportunity to serve as a teaching assistant in electromagnetism and thermodynamics at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) for two consecutive semesters.
 
