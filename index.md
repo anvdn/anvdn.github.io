@@ -7,11 +7,13 @@ title : ""
 
 <img class="profile-picture" src="resources/photo.jpg">
 
-Hi! I am a second year grad student at [Columbia University](https://www.columbia.edu/) currently enrolled in the [MS in Data Science](https://datascience.columbia.edu/). In the past, I earned a master's degree in Applied Mathematics at [École Polytechnique](https://www.polytechnique.edu/en) in France, where I am originally from.
+Hi! I am a Machine Learning Engineer at [Hyperscience](https://www.hyperscience.ai/) in New York, working on a document AI platform built on proprietary as well as fine-tuned open-source models. Among other things, I work on Vision Language Models: making self-hosted inference cheaper and faster, building the pipelines that train and evaluate them, and holding automated predictions to the accuracy targets our customers set.
 
-My current work experience in Machine Learning consists of one internship in RL research and another one as an ML Engineer in an automation Start-up. During the former, I developed a deep generative model capable of imitating "expert-like" navigation behavior on different types of surfaces. As for the ML Engineer position, I worked on improving the reading order of segments extracted from pages with complex layouts so as to provide better context to downstream tasks. Earlier in my graduate program, I also had the opportunity to serve as a teaching assistant in electromagnetism and thermodynamics at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) for two consecutive semesters.
+I am originally from France, where I earned a master's degree in Applied Mathematics at [École Polytechnique](https://www.polytechnique.edu/en), before completing the [MS in Data Science](https://datascience.columbia.edu/) at [Columbia University](https://www.columbia.edu/). Along the way, I interned in RL research at Huawei in London, training a deep generative model to imitate "expert-like" navigation on different types of surfaces, and joined Hyperscience as a research intern to reconstruct reading order on documents with complex layouts. I also served as a teaching assistant in electromagnetism and thermodynamics at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) for two consecutive semesters.
 
 ## Portfolio
+
+<i>The projects below are older work from my school years.</i>
 
 <div style="float: right; display: inline-block;">
 <a class = "github" href="https://github.com/anvdn/pix2pix/raw/main/report/E6691_2022Spring_ABVZ_report_av3023_ha2605_wab2138.pdf"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file-pdf"></use></svg> Report</a>&nbsp;&nbsp;&nbsp;<a class = "github" href="https://github.com/anvdn/pix2pix"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#github"></use></svg> GitHub</a>
